@@ -11,15 +11,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 import os
-import sys
 
 import matplotlib.patheffects as PathEffects
 
 from scipy.ndimage import median_filter
 
-import core
-import kpi
-import kpo
+from . import core
+from . import kpo
 
 show_plots = False
 

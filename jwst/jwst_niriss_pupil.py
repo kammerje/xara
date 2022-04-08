@@ -4,12 +4,8 @@ import astropy.io.fits as pyfits
 import matplotlib.pyplot as plt
 import numpy as np
 
-import os
-import sys
-
-sys.path.append('/Users/jkammerer/Documents/Code/xara/xara')
-from core import create_discrete_model, symetrizes_model
-import kpi
+from xara.core import create_discrete_model, symetrizes_model
+from xara import kpi
 
 
 # =============================================================================

@@ -27,8 +27,8 @@ import astropy.io.fits as fits
 from astropy.time import Time
 import copy
 
-import core
-import kpi
+from . import core
+from . import kpi
 
 shift = np.fft.fftshift
 fft = np.fft.fft2
